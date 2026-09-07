@@ -1,0 +1,10 @@
+# Ignore compressed archives
+*.zip
+*.tar.gz
+*.rar
+
+# MacOS
+.DS_Store
+
+# Logs
+*.log
