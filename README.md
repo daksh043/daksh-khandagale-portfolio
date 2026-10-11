@@ -1,10 +1,16 @@
 <!-- HERO SECTION -->
-<h1 align="center">Hi, I'm daksh043 👋</h1>
+<h1 align="center">Hi, I'm Daksh Khandagale 👋</h1>
 <p align="center">
-  <strong>Independent Web Developer | Passionate Creator | Lifelong Learner</strong>
+  <strong>AI & Machine Learning Engineer | Universal AI University</strong>
 </p>
 <p align="center">
-  Building engaging web experiences & exploring the world of code one project at a time.
+  Building intelligent data systems, machine learning solutions, and responsive modern web experiences.
+</p>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/daksh-khandagale-2035a5431"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="mailto:dakshkhandagale.ai@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+  <a href="https://github.com/daksh043"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
 </p>
 
 ---
@@ -12,39 +18,71 @@
 <!-- ABOUT ME -->
 ## 👨‍💻 About Me
 
-I'm an independent developer with a curious mindset and a passion for crafting functional, user-friendly websites. I thrive on exploring new technologies, bringing ideas to life with clean HTML, and continuously leveling up my web development skills. Whether I'm prototyping a portfolio or tinkering with bots, I enjoy problem-solving and collaborating on meaningful digital projects.
+- 🎓 **Undergraduate Student in AI & Machine Learning** at **Universal AI University, Karjat** (2026 - 2030).
+- 💡 Passionate about leveraging artificial intelligence, predictive modeling, and data analytics to solve practical business challenges.
+- 🛠️ Hands-on experience developing end-to-end web applications, predictive machine learning pipelines, and automation tools.
+- 📍 Based in Mumbai, India.
 
 ---
 
 <!-- TECH STACK -->
-## 🛠️ Tech Stack
+## 🛠️ Tech Stack & Skills
 
 <p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
+  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow"/>
+  <img src="https://img.shields.io/badge/Machine%20Learning-222222?style=for-the-badge&logo=scikitlearn&logoColor=white" alt="Machine Learning"/>
+  <img src="https://img.shields.io/badge/Data%20Analytics-4B8BBE?style=for-the-badge&logoColor=white" alt="Data Analytics"/>
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/>
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"/>
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
   <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-  <!-- Add more as you grow! -->
 </p>
-<p>
-  <em>Always learning and expanding my toolkit—curious about JavaScript, frameworks, and automation.</em>
-</p>
+
+---
+
+<!-- CERTIFICATIONS -->
+## 📜 Licenses & Certifications
+
+### 🔹 GenAI Powered Data Analytics Job Simulation — Tata (via Forage)
+- **Issued:** Sep 2026
+- Conducted exploratory data analysis (EDA) and credit risk profiling.
+- Built predictive models using AI to forecast loan delinquency.
+- Formulated data-driven collections strategy and delinquency mitigation frameworks.
+- **Skills:** Generative AI, Predictive Modeling, Exploratory Data Analysis, Python.
+
+### 🔹 Technology Job Simulation — Deloitte (via Forage)
+- **Issued:** Sep 2026
+- Completed practical simulations in enterprise software engineering and algorithm design.
+- Implemented clean code architecture and optimized data structures.
+- **Skills:** Software Engineering, Development Lifecycle, Algorithm Optimization.
 
 ---
 
 <!-- FEATURED PROJECTS -->
 ## 🌟 Featured Projects
 
-### [daksh-khandagale-portfolio](https://github.com/daksh043/daksh-khandagale-portfolio)
-*Personal Portfolio Website*  
-**Tech:** HTML  
-A showcase of my web development skills and digital identity. Focused on clear structure, clean markup, and introducing my journey as a developer.  
-<sub>*Check it out for inspiration or ideas—feedback is always welcome!*</sub>
+### 📊 [AI Predictive Dashboard](https://github.com/daksh043/ai-predictive-dashboard)
+*Machine Learning Analytics & Forecasting*  
+**Tech:** Python, TensorFlow, Machine Learning  
+Interactive dashboard visualizing predictive ML model outputs and real-time data analytics, engineered for decision intelligence and performance tracking.
 
-### [iTanmay-bot](https://github.com/daksh043/iTanmay-bot)
-*Experimental Project*  
-**Tech:** (Exploring new stacks)  
-A creative playground for experimenting with automation and bots. Reflects my curiosity and willingness to dive into emerging tools and scripting challenges.
+### 🌐 [Daksh Khandagale Portfolio Website](https://github.com/daksh043/daksh-khandagale-portfolio)
+*Personal Portfolio & Digital Showcase*  
+**Tech:** HTML5, CSS3, JavaScript  
+High-performance, responsive portfolio featuring custom scroll animations, interactive glassmorphic UI components, and clean design system.
+
+### 🤖 [iTanmay-bot](https://github.com/daksh043/iTanmay-bot)
+*Automation & Scripting Experiment*  
+Exploration into conversational automation, bot scripting, and workflow integration.
+
+---
+
+<!-- EDUCATION -->
+## 🎓 Education
+
+- **Universal AI University, Karjat** — *B.Tech / Specialization in AI & Machine Learning* (2026 – 2030)
+- **Rajarambapu Patil Junior College of Science, Sangli** — *12th Science (PCM)* (Graduated with First Class)
 
 ---
 
@@ -52,21 +90,18 @@ A creative playground for experimenting with automation and bots. Reflects my cu
 ## 📊 GitHub Activity & Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=daksh043&show_icons=true&theme=default" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=daksh043&show_icons=true&theme=radical" alt="GitHub Stats" />
 </p>
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=daksh043&layout=compact&theme=default" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=daksh043&layout=compact&theme=radical" alt="Top Languages" />
 </p>
 
 ---
 
 <!-- CONNECT -->
-## 🤝 Let's Connect & Collaborate!
+## 🤝 Connect With Me
 
-I'm always excited to connect with fellow developers, share ideas, and work on creative projects together.  
-**Got a collaboration in mind, or just want to chat tech?**  
-Drop me a message via [GitHub Issues](https://github.com/daksh043/daksh043/issues), or star one of my projects to start the conversation!
-
----
-
-<p align="center"><em>Thanks for stopping by! 🚀</em></p>
+- 💼 **LinkedIn:** [Daksh Khandagale](https://www.linkedin.com/in/daksh-khandagale-2035a5431)
+- 📧 **Email:** [dakshkhandagale.ai@gmail.com](mailto:dakshkhandagale.ai@gmail.com)
+- 🐙 **GitHub:** [@daksh043](https://github.com/daksh043)
+- 📸 **Instagram:** [@real__dakshh](https://www.instagram.com/real__dakshh)
