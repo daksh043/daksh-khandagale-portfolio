@@ -1,0 +1,7 @@
+# RFC 9116 Security Policy
+Contact: mailto:dakshkhandagale.ai@gmail.com
+Expires: 2027-12-31T23:59:59.000Z
+Preferred-Languages: en
+Canonical: https://github.com/daksh043/daksh-khandagale-portfolio/.well-known/security.txt
+Policy: https://github.com/daksh043/daksh-khandagale-portfolio#security
+Acknowledgments: https://github.com/daksh043/daksh-khandagale-portfolio/issues

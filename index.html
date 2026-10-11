@@ -9,6 +9,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     
+    <!-- Security Headers & Policies -->
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="X-Frame-Options" content="DENY">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <meta http-equiv="Permissions-Policy" content="camera=(), microphone=(), geolocation=(), payment=()">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://*.vercel-insights.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:; connect-src 'self' https://*.vercel-insights.com; frame-ancestors 'none'; object-src 'none'; base-uri 'self'; form-action 'self' mailto:;">
+
     <!-- Vercel Speed Insights -->
     <script>
         window.si = window.si || function () { (window.siq = window.siq || []).push(arguments); };
@@ -104,7 +111,7 @@
                             </div>
                             <div class="project-links">
                                 <a href="#" class="btn btn-small">Live Demo</a>
-                                <a href="https://github.com/daksh043/ai-predictive-dashboard" target="_blank" class="btn btn-small btn-outline">GitHub</a>
+                                <a href="https://github.com/daksh043/ai-predictive-dashboard" target="_blank" rel="noopener noreferrer" class="btn btn-small btn-outline">GitHub</a>
                             </div>
                         </div>
                     </div>
@@ -216,27 +223,34 @@
                             <li><strong>Location:</strong> Mumbai, India</li>
                         </ul>
                         <div class="social-links">
-                            <a href="https://github.com/daksh043" target="_blank" class="btn btn-small">GitHub</a>
-                            <a href="https://www.linkedin.com/in/daksh-khandagale-2035a5431?utm_source=share_via&utm_content=profile&utm_medium=member_ios" target="_blank" class="btn btn-small">LinkedIn</a>
-                            <a href="https://www.instagram.com/real__dakshh?stkn=MWM2cGY5dDlmdGllZg==" target="_blank" class="btn btn-small">Instagram</a>
+                            <a href="https://github.com/daksh043" target="_blank" rel="noopener noreferrer" class="btn btn-small">GitHub</a>
+                            <a href="https://www.linkedin.com/in/daksh-khandagale-2035a5431?utm_source=share_via&utm_content=profile&utm_medium=member_ios" target="_blank" rel="noopener noreferrer" class="btn btn-small">LinkedIn</a>
+                            <a href="https://www.instagram.com/real__dakshh?stkn=MWM2cGY5dDlmdGllZg==" target="_blank" rel="noopener noreferrer" class="btn btn-small">Instagram</a>
                         </div>
                     </div>
                     
                     <div class="contact-form-wrapper card">
-                        <form class="contact-form" action="#" method="POST">
+                        <form id="contact-form" class="contact-form" novalidate>
+                            <!-- Anti-Bot Honeypot Field (Invisible to legitimate human users) -->
+                            <div class="form-group-hp" style="display:none !important;" aria-hidden="true">
+                                <label for="website_hp">Leave this field blank</label>
+                                <input type="text" id="website_hp" name="website_hp" tabindex="-1" autocomplete="off">
+                            </div>
+
                             <div class="form-group">
                                 <label for="name">Name</label>
-                                <input type="text" id="name" name="name" required placeholder="Your Name">
+                                <input type="text" id="name" name="name" required maxlength="80" autocomplete="name" placeholder="Your Name">
                             </div>
                             <div class="form-group">
                                 <label for="email">Email</label>
-                                <input type="email" id="email" name="email" required placeholder="your.email@example.com">
+                                <input type="email" id="email" name="email" required maxlength="100" autocomplete="email" placeholder="your.email@example.com">
                             </div>
                             <div class="form-group">
                                 <label for="message">Message</label>
-                                <textarea id="message" name="message" rows="5" required placeholder="How can I help you?"></textarea>
+                                <textarea id="message" name="message" rows="5" required maxlength="2000" placeholder="How can I help you?"></textarea>
                             </div>
-                            <button type="submit" class="btn btn-primary w-100">Send Message</button>
+                            <div id="form-status" class="form-status" role="alert" aria-live="polite"></div>
+                            <button type="submit" id="submit-btn" class="btn btn-primary w-100">Send Message</button>
                         </form>
                     </div>
                 </div>
@@ -248,9 +262,9 @@
             <div class="footer-content">
                 <p>&copy; 2026 Daksh Khandagale. All rights reserved.</p>
                 <div class="footer-socials">
-                    <a href="https://github.com/daksh043" target="_blank">GitHub</a>
-                    <a href="https://www.linkedin.com/in/daksh-khandagale-2035a5431?utm_source=share_via&utm_content=profile&utm_medium=member_ios" target="_blank">LinkedIn</a>
-                    <a href="https://www.instagram.com/real__dakshh?stkn=MWM2cGY5dDlmdGllZg==" target="_blank">Instagram</a>
+                    <a href="https://github.com/daksh043" target="_blank" rel="noopener noreferrer">GitHub</a>
+                    <a href="https://www.linkedin.com/in/daksh-khandagale-2035a5431?utm_source=share_via&utm_content=profile&utm_medium=member_ios" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                    <a href="https://www.instagram.com/real__dakshh?stkn=MWM2cGY5dDlmdGllZg==" target="_blank" rel="noopener noreferrer">Instagram</a>
                 </div>
             </div>
         </footer>

@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /.git/
+Disallow: /.well-known/
+Disallow: /node_modules/
+
+Sitemap: https://daksh043.github.io/daksh-khandagale-portfolio/sitemap.xml
