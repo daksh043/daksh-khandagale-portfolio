@@ -62,19 +62,35 @@
 <!-- FEATURED PROJECTS -->
 ## 🌟 Featured Projects
 
+### 🏎️ [Apex-nitro](https://github.com/daksh043/Apex-nitro)
+*3D Street Racing Game with Multiplayer*  
+**Tech:** Three.js, JavaScript, WebSockets, Cloudflare Workers  
+High-octane browser-based 3D racing game featuring arcade vehicle physics, drifting mechanics, nitro boosts, and real-time multiplayer room synchronization.
+
+### 🏋️ [Pulse-gym](https://github.com/daksh043/pulse-gym)
+*Fitness & Athletic Training Platform*  
+**Tech:** HTML5, CSS3, JavaScript, Responsive UI  
+Modern web platform designed for gyms and fitness centers, with responsive workout dashboards, athletic schedules, and dark-theme UI.
+
 ### 📊 [AI Predictive Dashboard](https://github.com/daksh043/ai-predictive-dashboard)
 *Machine Learning Analytics & Forecasting*  
 **Tech:** Python, TensorFlow, Machine Learning  
 Interactive dashboard visualizing predictive ML model outputs and real-time data analytics, engineered for decision intelligence and performance tracking.
 
-### 🌐 [Daksh Khandagale Portfolio Website](https://github.com/daksh043/daksh-khandagale-portfolio)
-*Personal Portfolio & Digital Showcase*  
-**Tech:** HTML5, CSS3, JavaScript  
-High-performance, responsive portfolio featuring custom scroll animations, interactive glassmorphic UI components, and clean design system.
+### 🤖 [Telegram-LinkedIn-Bot](https://github.com/daksh043/telegram-linkedin-bot)
+*Workflow Automation & Intelligence Pipeline*  
+**Tech:** Python, Telegram API, Automation, AsyncIO  
+Automation bot orchestrating notifications, professional workflow synchronization, and data tracking between Telegram and LinkedIn.
 
-### 🤖 [iTanmay-bot](https://github.com/daksh043/iTanmay-bot)
-*Automation & Scripting Experiment*  
-Exploration into conversational automation, bot scripting, and workflow integration.
+### 💰 [PocketLedger](https://github.com/daksh043/pocketledger)
+*Personal Finance & Expense Tracker*  
+**Tech:** JavaScript, Web Storage, Clean Architecture  
+Lightweight application for managing personal income, expenses, and transaction logs with instant balance calculations.
+
+### 🌐 [Daksh Khandagale Portfolio Website](https://github.com/daksh043/daksh-khandagale-portfolio)
+*Personal Portfolio & Digital Identity Showcase*  
+**Tech:** HTML5, CSS3, JavaScript  
+High-performance portfolio featuring smooth canvas scroll animations, dark red glassmorphism theme, and comprehensive security headers.
 
 ---
 
