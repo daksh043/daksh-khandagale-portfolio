@@ -1121,20 +1121,7 @@ main {
     background-color: var(--accent);
 }
 
-.nav-cta {
-    background: rgba(224, 74, 74, 0.15);
-    border: 1px solid rgba(224, 74, 74, 0.4);
-    padding: 6px 14px;
-    border-radius: 14px;
-    color: #ff6b6b !important;
-    transition: all 0.2s ease;
-}
 
-.nav-cta:hover {
-    background: var(--accent);
-    color: #ffffff !important;
-    box-shadow: 0 0 12px rgba(224, 74, 74, 0.5);
-}
 
 /* Floating WhatsApp Button */
 .whatsapp-float-btn {
@@ -1203,129 +1190,7 @@ main {
     }
 }
 
-/* Payment & Support Modal */
-.payment-modal {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    z-index: 100002;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    opacity: 0;
-    pointer-events: none;
-    transition: opacity 0.3s cubic-bezier(0.16, 1, 0.3, 1);
-}
 
-.payment-modal.modal-open {
-    opacity: 1;
-    pointer-events: auto;
-}
-
-.payment-modal-backdrop {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(5, 7, 10, 0.85);
-    backdrop-filter: blur(16px);
-    -webkit-backdrop-filter: blur(16px);
-}
-
-.payment-modal-card {
-    position: relative;
-    z-index: 2;
-    width: 90%;
-    max-width: 460px;
-    padding: 2.2rem;
-    border-radius: 20px;
-    border: 1px solid rgba(224, 74, 74, 0.3);
-    background: rgba(14, 18, 26, 0.96);
-    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.7), 0 0 30px rgba(224, 74, 74, 0.2);
-    transform: scale(0.92) translateY(15px);
-    transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
-}
-
-.payment-modal.modal-open .payment-modal-card {
-    transform: scale(1) translateY(0);
-}
-
-.payment-modal-close {
-    position: absolute;
-    top: 16px;
-    right: 18px;
-    background: transparent;
-    border: none;
-    font-size: 1.8rem;
-    color: var(--text-muted);
-    cursor: pointer;
-    line-height: 1;
-    transition: color 0.2s ease, transform 0.2s ease;
-}
-
-.payment-modal-close:hover {
-    color: #ffffff;
-    transform: scale(1.1);
-}
-
-.payment-modal-header h3 {
-    margin: 0.6rem 0 0.4rem;
-    font-size: 1.4rem;
-    color: #ffffff;
-}
-
-.payment-modal-header p {
-    color: var(--text-muted);
-    font-size: 0.88rem;
-    line-height: 1.5;
-    margin-bottom: 1.5rem;
-}
-
-.payment-options {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    margin-bottom: 1.5rem;
-}
-
-.payment-option-item {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    padding: 1rem;
-    border-radius: 12px;
-    background: rgba(255, 255, 255, 0.03);
-    border: 1px solid rgba(255, 255, 255, 0.08);
-    transition: border-color 0.2s ease, background 0.2s ease;
-}
-
-.payment-option-item:hover {
-    border-color: rgba(224, 74, 74, 0.4);
-    background: rgba(255, 255, 255, 0.05);
-}
-
-.payment-icon {
-    font-size: 1.6rem;
-}
-
-.payment-info {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-}
-
-.payment-info strong {
-    color: #ffffff;
-    font-size: 0.95rem;
-}
-
-.payment-info span {
-    color: var(--text-muted);
-    font-size: 0.8rem;
-}
 
 /* Responsive Design */
 @media (max-width: 900px) {
@@ -1370,12 +1235,7 @@ main {
         border-bottom: 1px solid rgba(255, 255, 255, 0.05);
     }
 
-    .nav-cta {
-        display: inline-block;
-        margin-top: 0.5rem;
-        text-align: center;
-        width: 100%;
-    }
+    
     
     .hero .main-title {
         font-size: 3rem;
