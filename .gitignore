@@ -40,3 +40,6 @@ Thumbs.db
 *.zip
 *.tar.gz
 *.rar
+
+# Backups
+original_images_backup/

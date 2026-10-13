@@ -3,5 +3,7 @@ Allow: /
 Disallow: /.git/
 Disallow: /.well-known/
 Disallow: /node_modules/
+Disallow: /original_images_backup/
 
+Sitemap: https://daksh-khandagale-portfolio.vercel.app/sitemap.xml
 Sitemap: https://daksh043.github.io/daksh-khandagale-portfolio/sitemap.xml

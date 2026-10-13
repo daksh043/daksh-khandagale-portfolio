@@ -14,15 +14,120 @@
     <meta http-equiv="X-Frame-Options" content="DENY">
     <meta name="referrer" content="strict-origin-when-cross-origin">
     <meta http-equiv="Permissions-Policy" content="camera=(), microphone=(), geolocation=(), payment=()">
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://*.vercel-insights.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:; connect-src 'self' https://*.vercel-insights.com; frame-ancestors 'none'; object-src 'none'; base-uri 'self'; form-action 'self' mailto:;">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://*.vercel-insights.com https://www.googletagmanager.com https://*.google-analytics.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:; connect-src 'self' https://*.vercel-insights.com https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://formsubmit.co https://api.web3forms.com; frame-ancestors 'none'; object-src 'none'; base-uri 'self'; form-action 'self' mailto: https://formsubmit.co;">
 
     <!-- Vercel Speed Insights -->
     <script>
         window.si = window.si || function () { (window.siq = window.siq || []).push(arguments); };
     </script>
     <script defer src="/_vercel/speed-insights/script.js"></script>
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://daksh-khandagale-portfolio.vercel.app/">
+
+    <!-- Open Graph / WhatsApp / Facebook Link Preview Meta Tags -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Daksh Khandagale Portfolio">
+    <meta property="og:title" content="Daksh Khandagale — AI & Machine Learning Engineer">
+    <meta property="og:description" content="Portfolio of Daksh Khandagale, AI & Machine Learning Engineer specializing in predictive ML models, 3D graphics, and automation bots.">
+    <meta property="og:url" content="https://daksh-khandagale-portfolio.vercel.app/">
+    <meta property="og:image" content="https://daksh-khandagale-portfolio.vercel.app/og-preview.jpg">
+    <meta property="og:image:secure_url" content="https://daksh-khandagale-portfolio.vercel.app/og-preview.jpg">
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Daksh Khandagale - AI & Machine Learning Engineer">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Daksh Khandagale — AI & Machine Learning Engineer">
+    <meta name="twitter:description" content="Portfolio of Daksh Khandagale, AI & Machine Learning Engineer specializing in predictive ML models, 3D graphics, and automation bots.">
+    <meta name="twitter:image" content="https://daksh-khandagale-portfolio.vercel.app/og-preview.jpg">
+
+    <!-- Google Analytics (GA4) -->
+    <!-- Replace G-XXXXXXXXXX with your Google Analytics Measurement ID -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-XXXXXXXXXX');
+    </script>
 </head>
-<body>
+<body class="intro-active">
+    <!-- ===== CINEMATIC CYBER INTRO OVERLAY ===== -->
+    <div id="intro-overlay" class="intro-overlay" role="dialog" aria-label="Welcome to Daksh Khandagale Portfolio" aria-modal="true">
+        <!-- Ambient Cyber Background Grid Backdrop -->
+        <div class="intro-grid-backdrop"></div>
+        
+        <!-- Interactive Micro-Particle Stars -->
+        <canvas id="intro-canvas" class="intro-particle-canvas"></canvas>
+
+        <!-- Skip Intro Button -->
+        <button id="intro-skip-btn" class="intro-skip-btn" type="button" aria-label="Skip Introduction">
+            <span class="skip-text">SKIP</span>
+            <span class="skip-key">ESC ✕</span>
+        </button>
+
+        <!-- Central HUD Stage -->
+        <div class="intro-hud-stage" id="intro-hud-stage">
+            <!-- Tech Header Meta -->
+            <div class="intro-hud-header">
+                <span class="hud-badge"><span class="badge-pulse"></span>SYS_INITIALIZE</span>
+                <span class="hud-coord">19.0760° N, 72.8777° E</span>
+            </div>
+
+            <!-- Central Holographic Reactor Ring & Monogram -->
+            <div class="intro-core-container">
+                <!-- Rotating Concentric HUD Rings -->
+                <svg class="intro-hud-svg" viewBox="0 0 240 240" fill="none">
+                    <circle class="ring-track" cx="120" cy="120" r="105" stroke="rgba(255,255,255,0.06)" stroke-width="1.5" />
+                    <circle class="ring-outer-dashed" cx="120" cy="120" r="105" stroke="rgba(224,74,74,0.35)" stroke-width="1.5" stroke-dasharray="8 12" />
+                    <circle class="ring-middle-spin" cx="120" cy="120" r="90" stroke="rgba(224,74,74,0.7)" stroke-width="2" stroke-dasharray="160 320" />
+                    <circle class="ring-inner-dots" cx="120" cy="120" r="76" stroke="rgba(255,255,255,0.15)" stroke-width="1" stroke-dasharray="3 8" />
+                    <circle class="ring-glow-core" cx="120" cy="120" r="62" stroke="rgba(224,74,74,0.2)" stroke-width="1" />
+                </svg>
+
+                <!-- Monogram DK with Neon Bevel & Chromatic Glow -->
+                <div class="intro-monogram-box">
+                    <span class="monogram-letter monogram-d">D</span>
+                    <span class="monogram-divider"></span>
+                    <span class="monogram-letter monogram-k">K</span>
+                </div>
+
+                <!-- Subtle Tech Corner Crosshairs -->
+                <div class="hud-crosshair crosshair-tl"></div>
+                <div class="hud-crosshair crosshair-tr"></div>
+                <div class="hud-crosshair crosshair-bl"></div>
+                <div class="hud-crosshair crosshair-br"></div>
+            </div>
+
+            <!-- Identity & Dynamic Status Typing -->
+            <div class="intro-identity">
+                <h2 class="intro-title">DAKSH KHANDAGALE</h2>
+                <div class="intro-status-box">
+                    <span class="intro-status-indicator"></span>
+                    <span id="intro-status-msg" class="intro-status-msg">INITIALIZING NEURAL CORE...</span>
+                </div>
+            </div>
+
+            <!-- Neon Progress Bar & Numeric Counter -->
+            <div class="intro-progress-wrap">
+                <div class="intro-bar-track">
+                    <div id="intro-bar-fill" class="intro-bar-fill">
+                        <div class="intro-bar-head"></div>
+                    </div>
+                </div>
+                <div class="intro-progress-labels">
+                    <span class="mono-label">AI_CORE_LOAD</span>
+                    <span id="intro-progress-number" class="mono-counter">0%</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Center Energy Shockwave Ring (Triggers on 100%) -->
+        <div id="intro-shockwave" class="intro-shockwave"></div>
+    </div>
+
     <!-- Background Canvas Animation (Kept working feature) -->
     <canvas id="scroll-animation"></canvas>
 
@@ -33,9 +138,15 @@
         <nav class="navbar">
             <div class="nav-container">
                 <a href="#home" class="logo">
-                    <img src="logo.png" alt="DK Logo" class="logo-img">
+                    <img src="logo.png" alt="DK Logo" class="logo-img" width="95" height="95">
                 </a>
-                <ul class="nav-links">
+                <!-- Mobile Navigation Hamburger Toggle -->
+                <button id="nav-toggle" class="nav-toggle" type="button" aria-label="Toggle navigation menu" aria-expanded="false">
+                    <span class="hamburger-bar"></span>
+                    <span class="hamburger-bar"></span>
+                    <span class="hamburger-bar"></span>
+                </button>
+                <ul class="nav-links" id="nav-links">
                     <li><a href="#home">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#skills">Skills</a></li>
@@ -44,6 +155,7 @@
                     <li><a href="#certifications">Certifications</a></li>
                     <li><a href="#education">Education</a></li>
                     <li><a href="#contact">Contact</a></li>
+                    <li><a href="#payment-modal" class="open-payment-modal nav-cta">Support</a></li>
                 </ul>
             </div>
         </nav>
@@ -56,7 +168,7 @@
                     <p class="greeting">Hi, I'm</p>
                     <h1 class="main-title">Daksh Khandagale</h1>
                     <h2 class="role-title">AI and Machine Learning Engineer</h2>
-                    <p class="hero-intro">I'm a AI and Machine Learning Engineer who creates modern, responsive, and user-friendly digital experiences.</p>
+                    <p class="hero-intro">I'm an AI and Machine Learning Engineer who creates modern, responsive, and user-friendly digital experiences.</p>
                     <div class="hero-buttons">
                         <a href="#projects" class="btn btn-primary">View My Work</a>
                         <a href="#contact" class="btn btn-secondary">Contact Me</a>
@@ -101,7 +213,7 @@
                     <!-- Project 1: AI Predictive Dashboard -->
                     <div class="card project-card">
                         <div class="project-img-container">
-                            <img src="ai_predictive_dashboard.jpg" alt="AI Predictive Dashboard" class="project-img">
+                            <img src="ai_predictive_dashboard.jpg" alt="AI Predictive Dashboard" class="project-img" loading="lazy" decoding="async" width="600" height="340">
                         </div>
                         <div class="project-info">
                             <h3>AI Predictive Dashboard</h3>
@@ -119,7 +231,7 @@
                     <!-- Project 2: Apex Nitro -->
                     <div class="card project-card">
                         <div class="project-img-container">
-                            <img src="apex_nitro.jpg" alt="Apex Nitro 3D Racing Game" class="project-img">
+                            <img src="apex_nitro.jpg" alt="Apex Nitro 3D Racing Game" class="project-img" loading="lazy" decoding="async" width="600" height="340">
                         </div>
                         <div class="project-info">
                             <h3>Apex Nitro (3D Racing)</h3>
@@ -137,7 +249,7 @@
                     <!-- Project 3: Pulse Gym -->
                     <div class="card project-card">
                         <div class="project-img-container">
-                            <img src="pulse_gym.jpg" alt="Pulse Gym Web Application" class="project-img">
+                            <img src="pulse_gym.jpg" alt="Pulse Gym Web Application" class="project-img" loading="lazy" decoding="async" width="600" height="340">
                         </div>
                         <div class="project-info">
                             <h3>Pulse Gym Platform</h3>
@@ -155,7 +267,7 @@
                     <!-- Project 4: Telegram LinkedIn Automation Bot -->
                     <div class="card project-card">
                         <div class="project-img-container">
-                            <img src="telegram_bot.jpg" alt="Telegram LinkedIn Automation Bot" class="project-img">
+                            <img src="telegram_bot.jpg" alt="Telegram LinkedIn Automation Bot" class="project-img" loading="lazy" decoding="async" width="600" height="340">
                         </div>
                         <div class="project-info">
                             <h3>Telegram & LinkedIn Bot</h3>
@@ -273,8 +385,12 @@
                         <p>Feel free to reach out for collaborations, opportunities, or just to say hi!</p>
                         <ul class="contact-list">
                             <li><strong>Email:</strong> <a href="mailto:dakshkhandagale.ai@gmail.com">dakshkhandagale.ai@gmail.com</a></li>
+                            <li><strong>WhatsApp:</strong> <a href="https://wa.me/91XXXXXXXXXX?text=Hi%20Daksh,%20I%20saw%20your%20portfolio%20and%20would%20like%20to%20connect!" target="_blank" rel="noopener noreferrer" class="whatsapp-link">Connect on WhatsApp &rarr;</a></li>
                             <li><strong>Location:</strong> Mumbai, India</li>
                         </ul>
+                        <div class="quick-actions" style="margin-top: 1rem;">
+                            <button type="button" class="btn btn-small btn-outline open-payment-modal">Support / Tip Me</button>
+                        </div>
                         <div class="social-links">
                             <a href="https://github.com/daksh043" target="_blank" rel="noopener noreferrer" class="btn btn-small">GitHub</a>
                             <a href="https://www.linkedin.com/in/daksh-khandagale-2035a5431?utm_source=share_via&utm_content=profile&utm_medium=member_ios" target="_blank" rel="noopener noreferrer" class="btn btn-small">LinkedIn</a>
@@ -323,6 +439,59 @@
         </footer>
     </div>
     
+    <!-- Custom Cyber Cursor & Click Sparks Canvas -->
+    <div id="cursor-dot" class="cursor-dot" aria-hidden="true"></div>
+    <div id="cursor-ring" class="cursor-ring" aria-hidden="true"></div>
+    <canvas id="spark-canvas" class="spark-canvas" aria-hidden="true"></canvas>
+
     <script src="script.js"></script>
+
+    <!-- ===== FLOATING WHATSAPP BUTTON ===== -->
+    <a href="https://wa.me/91XXXXXXXXXX?text=Hi%20Daksh,%20I%20saw%20your%20portfolio%20and%20would%20like%20to%20connect!" 
+       id="whatsapp-float-btn" 
+       class="whatsapp-float-btn" 
+       target="_blank" 
+       rel="noopener noreferrer" 
+       aria-label="Chat with Daksh on WhatsApp">
+        <svg class="whatsapp-svg" viewBox="0 0 24 24" width="28" height="28" fill="currentColor">
+            <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2zm.01 1.67c2.2 0 4.26.86 5.82 2.42a8.225 8.225 0 0 1 2.41 5.83c0 4.54-3.7 8.24-8.24 8.24-1.42 0-2.82-.37-4.06-1.08l-.29-.17-3.12.82.83-3.04-.19-.3a8.214 8.214 0 0 1-1.26-4.46c0-4.54 3.7-8.24 8.24-8.24zm4.52 11.66c-.25-.13-1.47-.72-1.7-.81-.23-.08-.39-.13-.56.13-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.13-1.06-.39-2.02-1.25-.75-.67-1.26-1.5-1.4-1.75-.15-.25-.02-.39.11-.51.11-.11.25-.29.38-.44.12-.14.17-.25.25-.42.08-.17.04-.31-.02-.44-.06-.13-.56-1.35-.77-1.85-.2-.49-.41-.42-.56-.43h-.48c-.17 0-.44.06-.67.31-.23.25-.88.86-.88 2.1 0 1.24.9 2.44 1.03 2.61.12.17 1.78 2.72 4.31 3.81.6.26 1.07.42 1.44.53.61.19 1.16.17 1.6.1 0.49-.07 1.47-.6 1.68-1.18.2-.58.2-1.08.14-1.18-.06-.1-.23-.17-.48-.29z"/>
+        </svg>
+        <span class="whatsapp-tooltip">Chat on WhatsApp</span>
+    </a>
+
+    <!-- ===== PAYMENT & SUPPORT MODAL ===== -->
+    <div id="payment-modal" class="payment-modal" role="dialog" aria-label="Support Daksh" aria-modal="true" aria-hidden="true">
+        <div class="payment-modal-backdrop"></div>
+        <div class="payment-modal-card card">
+            <button id="close-payment-modal" class="payment-modal-close" type="button" aria-label="Close dialog">&times;</button>
+            <div class="payment-modal-header">
+                <span class="cert-badge">SUPPORT & COLLABORATION</span>
+                <h3>Support My Work</h3>
+                <p>Enjoyed my open-source AI projects or looking to collaborate? Your support fuels more high-performance tools!</p>
+            </div>
+            <div class="payment-options">
+                <div class="payment-option-item">
+                    <div class="payment-icon">☕</div>
+                    <div class="payment-info">
+                        <strong>Buy Me a Coffee</strong>
+                        <span>Support open-source development</span>
+                    </div>
+                    <a href="https://buymeacoffee.com/daksh043" target="_blank" rel="noopener noreferrer" class="btn btn-small btn-primary">Support</a>
+                </div>
+                <div class="payment-option-item">
+                    <div class="payment-icon">⚡</div>
+                    <div class="payment-info">
+                        <strong>Direct UPI (India)</strong>
+                        <span id="upi-id-text">dakshkhandagale@okhdfcbank</span>
+                    </div>
+                    <button type="button" id="copy-upi-btn" class="btn btn-small btn-outline">Copy UPI</button>
+                </div>
+            </div>
+            <div class="payment-modal-footer">
+                <p class="text-muted" style="font-size: 0.8rem; margin: 0;">100% secure direct payments. Thank you for your support!</p>
+            </div>
+        </div>
+    </div>
+
 </body>
 </html>
