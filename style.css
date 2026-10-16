@@ -1126,8 +1126,8 @@ main {
 /* Floating WhatsApp Button */
 .whatsapp-float-btn {
     position: fixed;
-    bottom: 24px;
-    right: 24px;
+    bottom: 35px;
+    right: 114px;
     width: 58px;
     height: 58px;
     border-radius: 50%;
@@ -1364,5 +1364,12 @@ canvas.spark-canvas {
     .cursor-dot,
     .cursor-ring {
         display: none !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .whatsapp-float-btn {
+        bottom: 20px;
+        right: 20px;
     }
 }
